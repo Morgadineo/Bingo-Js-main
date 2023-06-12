@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 75vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main section#section_cartelas {
+    height: auto;
+    width: 70%;
+    background-color: blue;
+}
+
+
+main section#section_cartelas #topo {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+main section#section_cartelas #topo button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(240, 99, 127);
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+main section#section_cartelas #topo button:hover {
+    background-color: rgb(240, 99, 127);
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 1px rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(255, 255, 255);
+}
+
+main section#section_cartelas #area_cartelas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+
+.nome {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.cartela {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+table thead {
+    background-color: rgb(90, 88, 88);
+    font-size: 2rem;
+}
+
+th,
+tr,
+td {
+    border: 2px solid black;
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+}
+
+main section#section_jogo {
+    min-height: 75vh;
+    height: auto;
+    width: 30%;
+    background-color: rgb(41, 48, 45);
+}
+
+main section#section_jogo div#topo {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main section#section_jogo #botao-jogar {
+    font-size: 3rem;
+    color: bisque;
+    border: 0.2rem solid black;
+    background-color: brown;
+    border-radius: 5%;
+    padding: 0.5rem;
+}
+
+main section#section_jogo #botao-jogar:hover {
+    box-shadow: 2px 1px rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(255, 255, 255);
+}
+
+main section#section_jogo #area_numeros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.numero_sorteado {
+    background-color: aliceblue;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.5rem solid black;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
